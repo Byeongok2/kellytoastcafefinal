@@ -38,6 +38,9 @@
 .text-align-center{
   text-align: center;
 }
+.justify-content-between{
+  justify-content: space-around;
+}
 
 /* 네비 섹션 */
 .nav-li{
@@ -1569,6 +1572,13 @@ textarea:focus {
 
 /*# sourceMappingURL=style.css.map */
 
+.bi-img{
+  width: 28%;
+}
+.bi-img2{
+  width: 20%;
+}
+
 @media only screen and (max-width: 1024px) {
   .news-table {
     width: 90%;
@@ -1585,6 +1595,16 @@ textarea:focus {
   .process-txt-small-wrap{
     width: 90% !important;
     margin: 0 auto;
+  }
+  .flex-direc-mobile{
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .bi-img{
+    width: 100%;
+  }
+  .bi-img2{
+    width: 100%;
   }
 }
 @media only screen and (max-width: 540px) {
