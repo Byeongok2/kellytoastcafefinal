@@ -180,6 +180,14 @@ img {
   height: 800px !important; }
 
 /* Section Padding */
+
+.p-10{
+  padding: 10px;
+}
+.p-10-0{
+  padding: 10px 0px;
+}
+
 .section-padding-80 {
   padding-top: 80px;
   padding-bottom: 80px; }
@@ -267,7 +275,7 @@ img {
 th{
   font-weight: bold; text-align: center !important;
   height: 57px;
-  font-size: 18px;
+  font-size: 17px;
   border-bottom: 2px solid rgba(255, 154, 210, 0.9);
 }
 th:nth-child(1){
@@ -275,7 +283,7 @@ th:nth-child(1){
   text-align: center !important;
 }
 th:nth-child(2){
-  width: 600px;
+  width: 500px;
 
   text-align: left !important;
 }
@@ -300,7 +308,7 @@ td:nth-child(1){
   text-align: center !important;
 }
 td:nth-child(2){
-  width: 600px;
+  width: 500px;
 }
 td:nth-child(3){
   width: 198px;
@@ -328,6 +336,14 @@ td:nth-child(4){
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 15px;
+}
+.news-back-btn{
+  line-height: 20px !important;
+  max-height: 40px;
+}
+.process-txt-small-wrap{
+  max-width: 1024px;
+  margin: 0 auto;
 }
 /* Preloader */
 #preloader {
@@ -711,7 +727,7 @@ textarea:focus {
           margin-top: 30px; } }
   @media only screen and (max-width: 767px) {
     .header-area .nav-brand img {
-      max-width: 90px; } }
+      max-width: 85px; } }
 
 /* :: 6.0 Welcome Area CSS */
 .hero-area {
@@ -1578,6 +1594,47 @@ textarea:focus {
 .bi-img2{
   width: 20%;
 }
+.bi-img3{
+  width: 26%;
+}
+
+.news-txt-board{
+  padding: 30px 50px;
+}
+.news-txt-board p{
+  font-size: 16px;
+}
+.insta-icon22{
+  font-size: 40px;
+  position: relative;
+  top: 7px;
+  margin-left: 40px;
+}
+.pc-mb-50{
+  margin-bottom: 50px;
+}
+
+.nav-margin-x{
+  margin: 0px 5px;
+}
+.max-width-1024{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.menu-sm-nav{
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 0 auto;
+}
+.menu-sm-nav-active{
+  border-bottom: 3px solid #fbaccc;
+}
+.menu-sm-nav-cont{
+  font-size: 18px;
+}
+/* 반응 */
 
 @media only screen and (max-width: 1024px) {
   .news-table {
@@ -1587,10 +1644,35 @@ textarea:focus {
     width: 90% !important;
     margin: 0 auto;
   }
+  td{
+
+    height: 45px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  th{
+    font-size: 14px;
+  }
 }
+
+@media only screen and (max-width: 972px) {
+  .insta-icon22{
+    font-size: 30px;
+    margin: 10px 32px;
+  }
+  .pc-mb-50{
+    margin-bottom: 0 !important;
+  }
+  
+}
+
+
 @media only screen and (max-width: 768px) {
   .news-table {
     width: 95%;
+  }
+  .news-txt-board{
+    padding: 15px 25px;
   }
   .process-txt-small-wrap{
     width: 90% !important;
@@ -1600,11 +1682,31 @@ textarea:focus {
     flex-direction: column;
     row-gap: 50px;
   }
+  .flex-direc-mobile2{
+    flex-direction: row !important;
+  }
+  .flex-direc-mobile3{
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
   .bi-img{
     width: 100%;
   }
   .bi-img2{
-    width: 100%;
+    width: 48%;
+  }
+  .bi-img3{
+    width: 32%;
+  }
+  .news-back-btn{
+    line-height: 20px !important;
+    max-height: 35px;
+    width: 15%;
+    min-width: 140px;
+    padding: 0 5px;
+    font-size: 14px;
+    margin-bottom: 15px !important;
   }
 }
 @media only screen and (max-width: 540px) {
@@ -1612,7 +1714,7 @@ textarea:focus {
     width: 96%;
   }
   .process-txt-small-wrap{
-    width: 90% !important;
+    width: 100% !important;
     margin: 0 auto;
   }
 
@@ -1621,6 +1723,15 @@ textarea:focus {
 .faq-txt-small{
   font-size: 12px;
 }
+}
+
+@media only screen and (max-width: 325px) {
+  td{
+    font-size: 12px;
+  }
+  th{
+    font-size: 13px;
+  }
 }
 
 
