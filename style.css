@@ -19,9 +19,15 @@
 @import url(css/custom-icon.css);
 @import url(css/classy-nav.min.css);
 @import url(css/nice-select.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 /* :: 3.0 Base CSS */
 
 /* 공통속성 */
+
+.font-size-20px{
+  font-size: 17px !important;
+  padding: 10px 10px !important;
+}
 
 .d-flex{
     display: flex;
@@ -62,7 +68,7 @@
   padding: 0; }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: sans-serif;
   font-size: 14px; }
 
 h1,
@@ -1612,7 +1618,15 @@ textarea:focus {
 }
 
 .nav-margin-x{
-  margin: 0px 5px;
+  margin: 0px 0px;
+}
+.nav-home-btn{
+  padding: 5px 14px;
+  text-align: center;
+}
+.bi-main-txt{
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
 }
 .max-width-1024{
   max-width: 1024px;
@@ -1621,7 +1635,7 @@ textarea:focus {
 
 .menu-sm-nav{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 60%;
   margin: 0 auto;
 }
@@ -1630,6 +1644,11 @@ textarea:focus {
 }
 .menu-sm-nav-cont{
   font-size: 18px;
+}
+.menu-banner-txt{
+  font-family: "Oswald";
+  font-size: 40px !important;
+  font-weight: bold;
 }
 /* 반응 */
 
@@ -1696,6 +1715,23 @@ textarea:focus {
   .bi-img3{
     width: 32%;
   }
+  .menu-banner-txt{
+    font-family: "Oswald";
+    font-size: 25px !important;
+    font-weight: bold;
+  }
+  .menu-sm-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .menu-sm-nav-active{
+    border-bottom: 3px solid #fbaccc;
+  }
+  .menu-sm-nav-cont{
+    font-size: 15px;
+  }
   .news-back-btn{
     line-height: 20px !important;
     max-height: 35px;
@@ -1704,6 +1740,10 @@ textarea:focus {
     padding: 0 5px;
     font-size: 14px;
     margin-bottom: 15px !important;
+  }
+  .bi-main-txt{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
   }
 }
 @media only screen and (max-width: 540px) {
@@ -1728,6 +1768,10 @@ textarea:focus {
   }
   th{
     font-size: 13px;
+  }
+  .bi-main-txt{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
   }
 }
 
