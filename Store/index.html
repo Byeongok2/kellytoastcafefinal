@@ -161,28 +161,34 @@
         <div class="contact-text-area-wrap">
             <div class="process-text-area">
                 <div class="notice-top">
-                    <span>Kelly NEWS</span><br/><br/>
-                    Kelly의 공지사항을 알려드립니다.
+                    <span>Store MAP</span>
                     <br/><br/><br/>
                 </div>
               <div class="process-txt-small-wrap pl-none margin-0-auto">
-                <table  class="news-table">
-                  <tr>
-                    <th>NO.</th><th>제목</th><th>등록일</th><th>작성자</th>
-                  </tr>
-                  <tr>
-                    <td onClick="location.href='../news01'" style="cursor:pointer;">01</td><td onClick="location.href='../news01'" style="cursor:pointer;">제목 Dummy</td><td onClick="location.href='../news01'" style="cursor:pointer;">2021/06/01</td><td onClick="location.href='../news01'" style="cursor:pointer;">관리자</td>
-                  </tr>
-                  <tr>
-                    <td onClick="location.href='../news02'" style="cursor:pointer;">02</td><td onClick="location.href='../news02'" style="cursor:pointer;">제목 Dummy2</td><td onClick="location.href='../news02'" style="cursor:pointer;">2021/06/01</td><td onClick="location.href='../news01'" style="cursor:pointer;">관리자</td>
-                  </tr>
-                  <tr>
-                    <td onClick="location.href='../news03'" style="cursor:pointer;">03</td><td onClick="location.href='../news03'" style="cursor:pointer;">제목 Dummy3</td><td onClick="location.href='../news03'" style="cursor:pointer;">2021/06/01</td><td onClick="location.href='../news01'" style="cursor:pointer;">관리자</td>
-                  </tr>
-                  <tr>
-                    <td onClick="location.href='../news04'" style="cursor:pointer;">04</td><td onClick="location.href='../news04'" style="cursor:pointer;">제목 Dummy4</td><td onClick="location.href='../news04'" style="cursor:pointer;">2021/06/01</td><td onClick="location.href='../news01'" style="cursor:pointer;">관리자</td>
-                  </tr>
-                </table>
+                  <!-- ##### Contact Form Area End ##### -->
+
+    <!-- ##### Google Maps ##### -->
+    <div class="map-area">
+        <!-- * 카카오맵 - 지도퍼가기 -->
+<!-- 1. 지도 노드 -->
+<div id="daumRoughmapContainer1627231306101" class="root_daum_roughmap root_daum_roughmap_landing" style="width: 100%;"></div>
+
+<!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+<!-- 3. 실행 스크립트 -->
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1627231306101",
+		"key" : "26r2g",
+		"mapHeight" : "500"
+	}).render();
+</script>
+    </div>
+    </div>
               </div>
             </div>
           </div>

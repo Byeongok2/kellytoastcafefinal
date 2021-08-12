@@ -20,6 +20,7 @@
 @import url(css/classy-nav.min.css);
 @import url(css/nice-select.min.css);
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Oswald:wght@300;500&display=swap');
 /* :: 3.0 Base CSS */
 
 /* 공통속성 */
@@ -1650,6 +1651,21 @@ textarea:focus {
   font-size: 40px !important;
   font-weight: bold;
 }
+
+.interior-section{
+  margin: 0 auto;
+  text-align: center;
+}
+.int-img2{
+  margin-bottom: 40px;
+}
+.int-main-txt2{
+  font-size: 20px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  margin: 0 auto;
+  padding: 10px;
+  word-break: keep-all;
+}
 /* 반응 */
 
 @media only screen and (max-width: 1024px) {
@@ -1719,6 +1735,23 @@ textarea:focus {
     font-family: "Oswald";
     font-size: 25px !important;
     font-weight: bold;
+  }
+  .int-main-txt2{
+    font-size: 12px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    margin: 0 auto;
+    padding: 10px;
+    line-height: 32px;
+  }
+  .int-main-txt2 br{
+    display: none;
+  }
+  .interior-section{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .int-img2{
+    margin-bottom: 20px;
   }
   .menu-sm-nav{
     display: flex;
